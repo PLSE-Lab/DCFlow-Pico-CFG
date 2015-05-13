@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PicoCFG
+Bundle-SymbolicName: PicoCFG
+Bundle-Version: 1.0.0
+Require-Bundle: org.eclipse.imp.pdb.values,
+ rascal,
+ CFG
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

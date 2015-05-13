@@ -1,0 +1,9 @@
+begin
+declare x : natural, y : natural;
+x := 3;
+while x do
+  y := y + x;
+  x := x - 1
+od;
+y := 5
+end

@@ -1,0 +1,9 @@
+begin
+declare x : natural, y : natural;
+x := 3;
+if x then
+  y := 10
+else
+  y := 15
+fi
+end

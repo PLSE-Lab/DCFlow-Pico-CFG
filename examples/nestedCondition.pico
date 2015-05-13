@@ -1,0 +1,13 @@
+begin
+declare x : natural, y : natural;
+x := y + 3;
+if x then
+  if y then
+    y := 10
+  else
+    y := 7
+  fi
+else
+  y := 15
+fi
+end

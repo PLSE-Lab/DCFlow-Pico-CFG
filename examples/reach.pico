@@ -1,0 +1,14 @@
+begin
+declare x : natural, y : natural;
+x := 1;
+y := 2;
+if x then
+  y := y + 1
+else
+  while y do
+    x := x + 1;
+    y := y - x
+  od
+fi;
+y := x
+end

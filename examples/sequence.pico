@@ -1,0 +1,5 @@
+begin
+declare x : natural, y : natural, z : natural;
+x := y + 3;
+z := x - 4
+end
